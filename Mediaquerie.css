@@ -159,13 +159,41 @@ footer ul{
 
 footer ul li{
     margin-bottom: 20px;
+    list-style: none;
 }
 
 footer .social-media{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 50px;
+    
 }
+
+footer .circle:hover {
+    background-color: hsl(322, 100%, 66%);
+  }
+
+  .about:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .about-1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .about-2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+footer .social-media li a:hover{
+    transform: translateY(-10px);
+}
+
 
 
 .icons {

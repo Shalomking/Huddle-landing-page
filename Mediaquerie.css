@@ -204,7 +204,9 @@ footer .social-media li a:hover{
     font-size: 20px;
   }
 
-
+  .copy {
+    text-align: right;
+  }
 
 footer .circle{
     height: 40px;
@@ -222,6 +224,20 @@ footer .circle{
 footer .p{
     text-align: center;
 }
+
+.attribution {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
+  .attribution a:hover {
+    color: hsla(27, 80%, 46%, 0.719);
+  }
+
 
 @media screen and (max-width: 768px) {
     body{
